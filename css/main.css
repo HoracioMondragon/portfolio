@@ -579,6 +579,8 @@ ul {
       #section-c .firezone img {
         margin-bottom: 2rem; }
       #section-c .firezone h1 {
+        font-size: 40px;
+        line-height: normal;
         display: inline;
         border-radius: 5px;
         padding: .3rem .5rem;
@@ -598,5 +600,29 @@ ul {
         background: #686D76;
         font-size: large;
         margin: 0 0; }
-  #section .py-2 {
-    padding: 0 0; } }
+  #contact-a {
+    padding: .4rem;
+    height: fit-content; }
+    #contact-a h1 {
+      font-size: 40px;
+      line-height: normal; }
+    #contact-a .text-fields {
+      display: flex;
+      flex-direction: column; }
+      #contact-a .text-fields .text-input {
+        margin-bottom: .5rem;
+        border-radius: 5px; }
+  #main-footer {
+    padding: .6rem; }
+    #main-footer h2 {
+      line-height: normal; }
+    #main-footer .footer-contact {
+      padding: 0;
+      grid-template-columns: 1fr; }
+      #main-footer .footer-contact div:nth-child(2) {
+        margin-top: 1rem;
+        justify-self: left;
+        text-align: left; }
+    #main-footer .footer-content {
+      margin-top: 1rem;
+      flex-direction: column; } }
