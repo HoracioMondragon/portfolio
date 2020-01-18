@@ -505,6 +505,7 @@ ul {
       font-size: 30px;
       line-height: normal; }
     #header-home .header-content {
+      height: fit-content;
       display: flex;
       flex-direction: column-reverse; }
     #header-home .header-text {
@@ -514,4 +515,88 @@ ul {
         text-align: left; }
     #header-home .header-image {
       width: 100%;
-      height: auto; } }
+      height: auto; }
+  #section-a {
+    height: fit-content; }
+    #section-a h1 {
+      font-size: 30px;
+      line-height: normal; }
+    #section-a .content-container {
+      grid-template-columns: 1fr; }
+  #section-b {
+    height: fit-content; }
+    #section-b h1 {
+      font-size: 40px;
+      line-height: normal; }
+    #section-b .container {
+      height: fit-content;
+      display: flex;
+      flex-direction: column-reverse; }
+      #section-b .container .tech-icons {
+        grid-template-columns: repeat(2, 1fr); }
+  #section-c {
+    padding: .4rem;
+    height: fit-content; }
+    #section-c h1 {
+      position: relative;
+      line-height: normal;
+      top: 0; }
+    #section-c .title-c {
+      height: fit-content;
+      margin-bottom: 1rem; }
+      #section-c .title-c h1 {
+        display: block;
+        position: relative;
+        padding: 0 .4rem;
+        margin: 0;
+        top: 0;
+        transform: none; }
+    #section-c div {
+      clip-path: none; }
+    #section-c .text-img {
+      width: fit-content;
+      background: none; }
+      #section-c .text-img:hover {
+        background: none; }
+    #section-c .kiwi-nut {
+      height: fit-content;
+      width: 100%;
+      margin: 0 0; }
+      #section-c .kiwi-nut img {
+        margin-bottom: 2rem; }
+      #section-c .kiwi-nut h1 {
+        display: inline;
+        border-radius: 5px;
+        padding: .3rem .5rem;
+        left: 10px;
+        background: #686D76;
+        font-size: large;
+        margin: 0 0; }
+    #section-c .firezone {
+      height: fit-content;
+      width: 100%;
+      margin: 0 0; }
+      #section-c .firezone img {
+        margin-bottom: 2rem; }
+      #section-c .firezone h1 {
+        display: inline;
+        border-radius: 5px;
+        padding: .3rem .5rem;
+        left: 10px;
+        background: #686D76;
+        font-size: large;
+        margin: 0 0; }
+    #section-c .alex-photo {
+      height: fit-content;
+      width: 100%;
+      margin: 0 0; }
+      #section-c .alex-photo h1 {
+        display: inline;
+        border-radius: 5px;
+        padding: .3rem .5rem;
+        left: 10px;
+        background: #686D76;
+        font-size: large;
+        margin: 0 0; }
+  #section .py-2 {
+    padding: 0 0; } }
