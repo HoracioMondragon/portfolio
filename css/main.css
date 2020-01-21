@@ -162,7 +162,8 @@ input[class^='btn-']:hover {
 
 html,
 body {
-  overflow: scroll; }
+  overflow: scroll;
+  overflow-x: hidden; }
 
 body {
   font-family: "Raleway", sans-serif;
