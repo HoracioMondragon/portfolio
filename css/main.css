@@ -160,15 +160,17 @@ input[class^='btn-']:hover {
   margin: 0;
   padding: 0; }
 
+html,
+body {
+  width: auto !important;
+  overflow-x: hidden !important; }
+
 body {
   font-family: "Raleway", sans-serif;
   line-height: 1.6;
   font-size: 16px;
   line-height: 26px;
-  font-weight: 500;
-  overflow-y: scroll;
-  /* has to be scroll, not auto */
-  -webkit-overflow-scrolling: touch; }
+  font-weight: 500; }
 
 a {
   text-decoration: none;
