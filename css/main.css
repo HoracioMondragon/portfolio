@@ -344,6 +344,9 @@ ul {
     top: 50%;
     transform: translateY(-50%);
     width: 100%; }
+  #section-c .job-container {
+    display: flex;
+    flex-direction: column; }
   #section-c div {
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%); }
   #section-c .text-img {
@@ -466,7 +469,7 @@ ul {
     #contact-a .text-fields .text-input {
       padding: .5rem 1rem; }
   #contact-a button[type='submit'] {
-    width: 50%;
+    width: 25%;
     border: 1px solid #546E7A;
     border-radius: 15px;
     margin-bottom: 1rem; }
